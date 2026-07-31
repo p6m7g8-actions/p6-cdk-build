@@ -7,7 +7,7 @@
 
 ```yaml
       - name: CDK Build
-        uses: p6m7g8-actions/cdk-build@main
+        uses: p6m7g8-actions/p6-cdk-build@main
         with:
           aws_region: ${{ secrets.CDK_DEPLOY_REGION }}
           aws_role: ${{ secrets.AWS_ROLE }}
